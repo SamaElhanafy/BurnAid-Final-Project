@@ -60,6 +60,18 @@ Minimum for local full stack:
 
 ---
 
+
+**Terminal 2 — Express API (port 3002)**
+
+```bash
+npm run dev:backend
+```
+
+**Terminal 3 — Vite dev server (port 3000)**
+
+```bash
+npm run dev
+```
 ## Run locally
 
 **Terminal 1 — Python model (port 8000)**
@@ -80,19 +92,6 @@ npm run dev:all
 - Model: `http://127.0.0.1:8000` (see FastAPI docs at `/docs` if enabled)
 
 ---
-
-**Terminal 2 — Express API (port 3002)**
-
-```bash
-npm run dev:backend
-```
-
-**Terminal 3 — Vite dev server (port 3000)**
-
-```bash
-npm run dev
-```
-
 
 ## Production build (frontend)
 
