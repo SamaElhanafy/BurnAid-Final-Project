@@ -1,5 +1,11 @@
-# BURN-AID
----
+# BurnAid: Classification & First-Aid Chatbot---
+
+## Student Information
+
+- **Student Name:** Sama Ahmed Mohamed Elhanafy Mohamed Youssef
+- **Student ID:** 22510957
+- **Course:** TM471 Final Year Project
+- **Project:** BurnAid: Classification & First-Aid Chatbot
 
 ## Repository layout
 
@@ -63,6 +69,17 @@ cd burn_model_api
 .venv\Scripts\activate
 uvicorn app:app --host 0.0.0.0 --port 8000
 ```
+**All three at once (Windows paths for the model are already in `package.json`):**
+
+```bash
+npm run dev:all
+```
+
+- Frontend: `http://localhost:3000`
+- Backend health: `http://127.0.0.1:3002/api/health`
+- Model: `http://127.0.0.1:8000` (see FastAPI docs at `/docs` if enabled)
+
+---
 
 **Terminal 2 — Express API (port 3002)**
 
@@ -76,17 +93,6 @@ npm run dev:backend
 npm run dev
 ```
 
-**All three at once (Windows paths for the model are already in `package.json`):**
-
-```bash
-npm run dev:all
-```
-
-- Frontend: `http://localhost:3000`
-- Backend health: `http://127.0.0.1:3002/api/health`
-- Model: `http://127.0.0.1:8000` (see FastAPI docs at `/docs` if enabled)
-
----
 
 ## Production build (frontend)
 
@@ -129,19 +135,6 @@ Each file includes a short comment at the top describing its responsibility.
 | `backend/services/nearbyFacilities.ts` | Overpass, optional Google Places, Egypt fallbacks |
 | `backend/storage/*.ts` | Read/write JSON “database” in `backend/data/` |
 
----
-
-## Hosting on Vercel
-
-This repo includes **`vercel.json`** and **`api/index.ts`** so you can deploy **frontend + Express API in a single Vercel project** (static `frontend/dist` + one serverless function for all `/api/*` routes).
-
-**Step-by-step checklist:** see **[VERCEL_DEPLOY.md](./VERCEL_DEPLOY.md)** (env vars, first deploy, `/api/health` test, limitations).
-
-**Caveats**
-
-- **`backend/data/*.json`** is not a reliable database on Vercel; use a hosted DB for production persistence.
-- **Burn model** (`burn_model_api`) must be hosted separately; set **`VITE_BURN_MODEL_API`** on Vercel.
-- To run API on **another** host only, set **`VITE_BACKEND_URL`** to that API’s public URL; otherwise leave it unset so the browser uses the same Vercel hostname.
 
 ---
 
@@ -151,7 +144,6 @@ This repo includes **`vercel.json`** and **`api/index.ts`** so you can deploy **
 - **Solution:** image-based triage model + structured first-aid content + emergency tools.
 - **Architecture:** React SPA → Express API + JSON store; FastAPI for `/predict`; optional Google/Overpass for maps.
 - **Ethics / limits:** disclaimer, privacy (images), no formal diagnosis, Egypt-centric facility defaults.
-- **Demo path:** Landing → Assessment → upload demo image → show degree + advice → Emergency / map.
 
 ---
 
@@ -169,6 +161,6 @@ This repo includes **`vercel.json`** and **`api/index.ts`** so you can deploy **
 
 ---
 
-## License / academic use
+## Academic Use
 
-Use and attribution policies depend on your institution; this README is intended for graduation-project documentation and deployment notes.
+This project was developed as a graduation project for TM471. The source code and documentation are submitted for academic review only.
