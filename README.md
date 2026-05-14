@@ -1,4 +1,6 @@
-# BurnAid: Classification & First-Aid Chatbot---
+# BurnAid: Classification & First-Aid Chatbot
+
+---
 
 ## Student Information
 
@@ -60,7 +62,15 @@ Minimum for local full stack:
 
 ---
 
+## Run locally
 
+**Terminal 1 — Python model (port 8000)**
+
+```bash
+cd burn_model_api
+.venv\Scripts\activate
+uvicorn app:app --host 0.0.0.0 --port 8000
+```
 **Terminal 2 — Express API (port 3002)**
 
 ```bash
@@ -72,15 +82,7 @@ npm run dev:backend
 ```bash
 npm run dev
 ```
-## Run locally
 
-**Terminal 1 — Python model (port 8000)**
-
-```bash
-cd burn_model_api
-.venv\Scripts\activate
-uvicorn app:app --host 0.0.0.0 --port 8000
-```
 **All three at once (Windows paths for the model are already in `package.json`):**
 
 ```bash
@@ -163,3 +165,7 @@ Each file includes a short comment at the top describing its responsibility.
 ## Academic Use
 
 This project was developed as a graduation project for TM471. The source code and documentation are submitted for academic review only.
+
+## Project Repository
+
+GitHub: https://github.com/SamaElhanafy/BurnAid-Final-Project
