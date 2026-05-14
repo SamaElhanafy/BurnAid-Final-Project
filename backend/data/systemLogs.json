@@ -1,0 +1,17 @@
+[
+  {
+    "type": "user_login",
+    "message": "User samaelhanafyy@gmail.com logged in",
+    "userId": "9aaaa9d5-844b-4870-ae69-761ab3e12f1a",
+    "id": "621249ab-18b0-4db7-91c9-c6fc305adacd",
+    "createdAt": "2026-05-10T10:22:57.961Z"
+  },
+ 
+  {
+    "type": "burn_assessment_saved",
+    "message": "Burn assessment saved: 3rd Degree",
+    "userId": "0a25e223-3f24-4268-91c3-0c0a00d3fee8",
+    "id": "9f394493-f897-4484-92bc-2df62544150f",
+    "createdAt": "2026-05-13T18:21:13.358Z"
+  }
+]

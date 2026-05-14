@@ -1,0 +1,51 @@
+[
+  {
+    "id": "9aaaa9d5-844b-4870-ae69-761ab3e12f1a",
+    "name": "sama",
+    "email": "samaelhanafyy@gmail.com",
+    "passwordHash": "$2b$10$3MgGXsMJ.APrOzYlKWR.zOuWLM2ps2tkQoi2NHboPx7f98OZi5Ik.",
+    "role": "admin",
+    "createdAt": "2026-04-29T19:12:45.761Z",
+    "phone": "01116410757",
+    "bloodType": "AB+",
+    "allergies": "no"
+  },
+  {
+    "id": "326a3745-a507-4f57-ae84-897ebb62726a",
+    "name": "Test User",
+    "email": "testuser123@example.com",
+    "passwordHash": "$2b$10$G6zEUnmuvBx43/gXCvbM1egyQ0Kop1amh/bMFSQ1nIp5mMKM8QUvy",
+    "role": "user",
+    "createdAt": "2026-05-01T14:35:27.661Z"
+  },
+  {
+    "id": "f762b8db-5084-411f-afbc-06d5b058e6d3",
+    "name": "selim",
+    "email": "selim@gmail.com",
+    "phone": "01116410753",
+    "bloodType": "O-",
+    "passwordHash": "$2b$10$bv4LdVDOrtWQUDGur0vI3OGGD8p452VpKfAU.kkqXHvX0kx6g6dD2",
+    "createdAt": "2026-05-06T17:39:16.803Z",
+    "role": "user"
+  },
+  {
+    "id": "0d34ddaa-917e-4fca-b884-55bea929cf8f",
+    "name": "noura ahmed",
+    "email": "nouraehmasl@gmail.com",
+    "phone": "01116606915",
+    "bloodType": "A+",
+    "passwordHash": "$2b$10$BsppOyUPa8AGYvCCaUwGB.o6RoHk0vyt1NpbtKewxVPVLnc6TKDr6",
+    "createdAt": "2026-05-07T13:48:45.204Z",
+    "role": "user"
+  },
+  {
+    "id": "0a25e223-3f24-4268-91c3-0c0a00d3fee8",
+    "name": "sam",
+    "email": "sama@gmail.com",
+    "phone": "01115555816",
+    "bloodType": "O+",
+    "passwordHash": "$2b$10$ND4FoCseL0lGp.tkfYayief64x4VeXx/kncBBPAVsR.UIG5.R3DAy",
+    "createdAt": "2026-05-13T18:15:51.419Z",
+    "role": "user"
+  }
+]

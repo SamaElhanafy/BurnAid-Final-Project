@@ -1,0 +1,15 @@
+[
+  {
+    "id": "3d092d65-62d9-4e5a-b492-d17b9db270c4",
+    "userId": "b5dc3adc-3ac1-4391-8d4b-528a3a35e78b",
+    "burnType": "1st Degree",
+    "confidence": 0.9400992393493652,
+    "description": "First-degree burn. Usually superficial with redness and mild pain.",
+    "recommendations": [
+      "Cool the area under running water for 20 minutes.",
+      "Use a clean non-stick dressing.",
+      "Avoid ice, oils, or toothpaste."
+    ],
+    "createdAt": "2026-05-06T19:49:18.081Z"
+  }
+]

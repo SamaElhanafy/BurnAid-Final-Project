@@ -1,0 +1,90 @@
+{
+  "enVideos": [
+    {
+      "id": "en-1",
+      "title": "1. Burn First Aid Basics",
+      "duration": "12:45",
+      "thumbnail": "https://img.youtube.com/vi/OU_GIcBpyF4/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/OU_GIcBpyF4",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "en-2",
+      "title": "2. Emergency Burn Treatment",
+      "duration": "08:20",
+      "thumbnail": "https://img.youtube.com/vi/XGnLkUty69g/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/XGnLkUty69g",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "en-3",
+      "title": "3. Stages of Recovery Visualization",
+      "duration": "15:10",
+      "thumbnail": "https://img.youtube.com/vi/Q3cVCiraAgw/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/Q3cVCiraAgw",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "en-4",
+      "title": "4. Infection Prevention Standards",
+      "duration": "10:55",
+      "thumbnail": "https://img.youtube.com/vi/39L-Y0AXrh0/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/39L-Y0AXrh0",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    }
+  ],
+  "arVideos": [
+    {
+      "id": "ar-1",
+      "title": "١. أساسيات الإسعافات الأولية للحروق",
+      "duration": "12:45",
+      "thumbnail": "https://img.youtube.com/vi/bvi0gesxqoA/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/bvi0gesxqoA",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "ar-2",
+      "title": "٢. العلاج الطارئ للحروق",
+      "duration": "08:20",
+      "thumbnail": "https://img.youtube.com/vi/xEVPhIv0XbI/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/xEVPhIv0XbI",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "ar-3",
+      "title": "٣. مراحل شفاء الحروق",
+      "duration": "15:10",
+      "thumbnail": "https://img.youtube.com/vi/ezf4sPpUN54/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/ezf4sPpUN54",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    {
+      "id": "ar-4",
+      "title": "٤. الوقاية من العدوى للحروق",
+      "duration": "10:55",
+      "thumbnail": "https://img.youtube.com/vi/8yYSm_6CDB4/hqdefault.jpg",
+      "youtubeUrl": "https://www.youtube.com/embed/8yYSm_6CDB4",
+      "createdAt": "2026-05-08T10:02:40.481Z",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    }
+  ],
+  "howItWorks": {
+    "en": {
+      "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuAYHmyJnvyk29yy8YKlREHveO-nJTgZGbFPzMGoDVWDpRaKUxEVKUwpjA8qK0SlC0PGnbuZUc18yjWH3ZJRl8wGPFk3SQtCDxWGP5tL0nvWYRci0Pu5h2HE3l8MdPWeJW2_f78toeu-vFZQ7qidRx0HrlvVqgf3As4dAyNYIBBxOuTQ6TOq0_fTAHi4jDlX3eH16_PpgZhMEjH1mjMR3yHmdOCY_Z6R5RrypupDK9cnLC1O5mm31wMgMxKZIh8DNI3NhQz3i96310w",
+      "youtubeUrl": "https://www.youtube.com/embed/XsEGRKH0Yho",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    },
+    "ar": {
+      "thumbnail": "https://lh3.googleusercontent.com/aida-public/AB6AXuAYHmyJnvyk29yy8YKlREHveO-nJTgZGbFPzMGoDVWDpRaKUxEVKUwpjA8qK0SlC0PGnbuZUc18yjWH3ZJRl8wGPFk3SQtCDxWGP5tL0nvWYRci0Pu5h2HE3l8MdPWeJW2_f78toeu-vFZQ7qidRx0HrlvVqgf3As4dAyNYIBBxOuTQ6TOq0_fTAHi4jDlX3eH16_PpgZhMEjH1mjMR3yHmdOCY_Z6R5RrypupDK9cnLC1O5mm31wMgMxKZIh8DNI3NhQz3i96310w",
+      "youtubeUrl": "https://www.youtube.com/embed/paVmX2od6AY",
+      "updatedAt": "2026-05-08T10:02:40.481Z"
+    }
+  }
+}
